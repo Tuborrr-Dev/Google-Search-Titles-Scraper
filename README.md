@@ -23,3 +23,8 @@ This Selenium web scraper is designed to:
 
 ```bash
 python scraper.py "your search query here"
+
+4. ## License
+
+This project is licensed under the MIT License. See the full license details at [MIT License](https://opensource.org/license/mit).
+
