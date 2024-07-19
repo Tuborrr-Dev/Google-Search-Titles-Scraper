@@ -18,13 +18,14 @@ This Selenium web scraper is designed to:
    - [GeckoDriver (Firefox)](https://github.com/mozilla/geckodriver/releases)
 
 2. **Modify the script to point to your WebDriver if necessary.**
+3.  ## License
 
-3. **Run the scraper:**
+This project is licensed under the MIT License. See the full license details at [MIT License](https://opensource.org/license/mit).
+
+
+4. **Run the scraper:**
 
 ```bash
 python scraper.py "your search query here"
 
-4. ## License
-
-This project is licensed under the MIT License. See the full license details at [MIT License](https://opensource.org/license/mit).
 
