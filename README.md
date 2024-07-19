@@ -9,3 +9,17 @@ This Selenium web scraper is designed to:
 - 🔍 **Input a search query into Google.**
 - 📄 **Collect the titles of all search results returned.**
 - 💾 **Output these titles to an Excel file.**
+
+## Usage
+
+1. **Ensure you have the correct WebDriver for your browser installed:**
+
+   - [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/)
+   - [GeckoDriver (Firefox)](https://github.com/mozilla/geckodriver/releases)
+
+2. **Modify the script to point to your WebDriver if necessary.**
+
+3. **Run the scraper:**
+
+```bash
+python scraper.py "your search query here"
