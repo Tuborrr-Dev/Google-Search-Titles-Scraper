@@ -15,24 +15,21 @@ service = Service(PATH)
 driver = webdriver.Chrome(service=service)
 
 driver.get("https://google.com")
-#this is used to close the tab but if you want to display once youll say.quit
-#you can use the driver command to also get information about the page such as the page title
-print(driver.title)
-#we can search for elements in out html using different methods
-#either by ID, Name or Class in descending order can we identify elements
 search = driver.find_element(By.NAME, "q")
 #the above is the search box input field
 search.send_keys("test")
 search.send_keys(Keys.RETURN)
-#the above sends keys into the variable
-#using waits we can wait for the presence of an element before we start printing a value
 try:
     result = WebDriverWait(driver, 20).until(
-        EC.presence_of_element_located((By.ID, "res"))
+        EC.presence_of_element_located((By.ID, "rso"))
     )
-    headers = result.find_element(By.CLASS_NAME, "g Ww4FFb vt6azd tF2Cxc asEBEc")
+    headers = result.find_elements(By.CLASS_NAME, "MjjYud")
     for header in headers:
-        each_page_title = header.find_element(By.CLASS_NAME, "LC20lb MBeuO DKV0Md")
-        print(each_page_title.text)
+        #to prevent crashing we use the try and except to catch erros and ensure our code continues to search for the designated elements
+        try:
+            each_title=header.find_element(By.CSS_SELECTOR, "h3.LC20lb")
+            print(each_title.text)
+        except Exception as e:
+            print("The Designated Element wasn't found with error code: {e}" )
 finally:
     driver.quit()
