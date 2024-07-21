@@ -7,8 +7,8 @@ This project uses Selenium to create a web scraper that collects the titles of a
 This Selenium web scraper is designed to:
 
 - 🔍 **Input a search query into Google.**
-- 📄 **Collect the titles of all search results returned.**
-- 💾 **Output these titles to an Excel file.**
+- 📄 **Collect the titles and URL of all search results returned.**
+- 💾 **Output these titles and URL to an Excel file.**
 
 ## Usage
 
