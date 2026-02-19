@@ -1,0 +1,4 @@
+# One query per line. Lines starting with # are ignored.
+python web scraping
+selenium best practices
+fastapi vs flask
