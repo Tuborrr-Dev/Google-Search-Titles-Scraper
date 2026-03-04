@@ -95,3 +95,7 @@ def scrape(
         next_button.click()
 
     return page_titles, page_urls
+
+
+# NOTE: Google CSS class names (MjjYud, LC20lb) change periodically.
+# If scraping stops, verify these selectors first.
