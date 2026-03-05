@@ -71,3 +71,6 @@ def build_driver(driver_path: str | None = None, headless: bool = False,
         pass  # non-Chromium driver or CDP unavailable; not fatal
 
     return chrome_driver
+
+
+# TODO: consider adding proxy rotation for higher-volume scraping.
