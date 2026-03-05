@@ -21,3 +21,6 @@ def human_type(element, text: str, min_delay: float = 0.03, max_delay: float = 0
     for char in text:
         element.send_keys(char)
         time.sleep(random.uniform(min_delay, max_delay))
+
+
+# NOTE: delay ranges tuned to avoid bot detection while staying realistic.
