@@ -12,3 +12,6 @@ def is_captcha_page(driver) -> bool:
         or "recaptcha" in page
         or "/sorry/" in driver.current_url
     )
+
+
+# FIXME: add notification hook (email/Slack) when CAPTCHA is detected.
