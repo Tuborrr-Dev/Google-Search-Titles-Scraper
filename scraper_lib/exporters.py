@@ -46,3 +46,6 @@ def save_results(
 
     print(f"Saved {len(df)} result(s) to '{output_path}'.")
     return df
+
+
+# NOTE: xlsxwriter is used instead of openpyxl for better formatting control.
