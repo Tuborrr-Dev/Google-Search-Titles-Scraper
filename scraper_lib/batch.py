@@ -36,3 +36,6 @@ def run_batch(queries: list[str], args, output_dir) -> None:
 
         out_path = output_dir / f"{_safe_filename(query)}.{args.format}"
         save_results(titles, urls, out_path, args.format, query=query)
+
+
+# TODO: add progress bar (tqdm) for long batch runs.
