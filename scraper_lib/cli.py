@@ -87,3 +87,6 @@ def main(argv=None) -> None:
 
 if __name__ == "__main__":
     main()
+
+
+# NOTE: mutually exclusive group ensures either query or queries-file is provided.
