@@ -74,3 +74,7 @@ try:
     print(f"Data set has been scraped successfully into '{output_file}'. Thank you.")
 except Exception as e:
     print(f"An error occurred when trying to store data: {e}")
+
+
+# LEGACY: this file is kept for backward compatibility.
+# New usage should prefer: python -m scraper_lib.cli
