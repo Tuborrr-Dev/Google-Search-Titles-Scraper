@@ -16,3 +16,6 @@ from scraper_lib.cli import main
 
 if __name__ == "__main__":
     main()
+
+
+# NOTE: thin wrapper around scraper_lib.cli for backward-compatible invocation.
