@@ -29,3 +29,10 @@ This project is licensed under the MIT License. See the full license details at 
 python scraper.py "your search query here"
 
 
+
+
+## Changelog
+
+- 2026-01: Initial scraper_lib refactor
+- 2026-02: Added batch mode and CLI
+- 2026-03: Added comprehensive test suite
