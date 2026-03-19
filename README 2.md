@@ -107,3 +107,10 @@ tests/                    # pytest unit tests (no live browser required)
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/license/mit).
+
+
+## Development Notes
+
+- Run tests with: `pytest tests/`
+- Lint with: `ruff check .`
+- CI runs on every push via GitHub Actions
