@@ -8,3 +8,6 @@ target-version = "py311"
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]
+
+
+# NOTE: version should be bumped before tagging releases.
