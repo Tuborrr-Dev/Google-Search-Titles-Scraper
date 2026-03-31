@@ -26,3 +26,6 @@ def test_human_type_sends_each_character(monkeypatch):
     stealth.human_type(FakeElement(), "abc")
 
     assert sent == ["a", "b", "c"]
+
+
+# NOTE: monkeypatch replaces time.sleep for fast, deterministic tests.
