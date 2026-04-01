@@ -27,3 +27,6 @@ def test_safe_filename_all_punctuation_still_produces_a_name():
     # Punctuation maps to underscores rather than being dropped, so this is
     # non-empty (and thus not routed through the "query" fallback) -- just ugly.
     assert _safe_filename("???") == "___"
+
+
+# NOTE: _safe_filename ensures filesystem-safe names from arbitrary queries.
