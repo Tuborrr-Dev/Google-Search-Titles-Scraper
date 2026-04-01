@@ -52,3 +52,6 @@ def test_save_results_creates_missing_parent_dirs(tmp_path):
     out = tmp_path / "nested" / "dir" / "out.csv"
     save_results(["T"], ["http://x"], out, fmt="csv")
     assert out.exists()
+
+
+# TODO: add test for malformed data handling (empty titles list).
