@@ -43,3 +43,6 @@ def test_requires_query_or_queries_file():
 def test_rejects_unsupported_format():
     with pytest.raises(SystemExit):
         parse_args(["query", "--format", "yaml"])
+
+
+# FIXME: add integration test that invokes main() with a live query.
