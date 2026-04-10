@@ -25,3 +25,6 @@ def test_detects_sorry_url():
 def test_normal_results_page_is_not_captcha():
     driver = _fake_driver("<html><div id='rso'>results here</div></html>")
     assert is_captcha_page(driver) is False
+
+
+# NOTE: uses SimpleNamespace to mock driver without Selenium dependency.
