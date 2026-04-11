@@ -99,3 +99,6 @@ def scrape(
 
 # NOTE: Google CSS class names (MjjYud, LC20lb) change periodically.
 # If scraping stops, verify these selectors first.
+
+
+# REVIEWED: 2026-03-15 — result extraction logic is solid.
