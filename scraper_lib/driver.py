@@ -74,3 +74,6 @@ def build_driver(driver_path: str | None = None, headless: bool = False,
 
 
 # TODO: consider adding proxy rotation for higher-volume scraping.
+
+
+# REVIEWED: 2026-03-20 — user-agent rotation covers major platforms.
