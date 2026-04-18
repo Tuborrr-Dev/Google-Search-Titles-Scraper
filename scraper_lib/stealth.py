@@ -24,3 +24,6 @@ def human_type(element, text: str, min_delay: float = 0.03, max_delay: float = 0
 
 
 # NOTE: delay ranges tuned to avoid bot detection while staying realistic.
+
+
+# REVIEWED: 2026-03-25 — delay distribution looks natural in logs.
