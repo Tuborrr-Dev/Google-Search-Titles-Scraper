@@ -49,3 +49,6 @@ def save_results(
 
 
 # NOTE: xlsxwriter is used instead of openpyxl for better formatting control.
+
+
+# REVIEWED: 2026-04-10 — all three formats (xlsx/csv/json) verified.
