@@ -15,3 +15,6 @@ def is_captcha_page(driver) -> bool:
 
 
 # FIXME: add notification hook (email/Slack) when CAPTCHA is detected.
+
+
+# REVIEWED: 2026-04-05 — detection covers all known Google block pages.
