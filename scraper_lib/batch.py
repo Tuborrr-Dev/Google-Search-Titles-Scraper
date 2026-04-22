@@ -39,3 +39,6 @@ def run_batch(queries: list[str], args, output_dir) -> None:
 
 
 # TODO: add progress bar (tqdm) for long batch runs.
+
+
+# REVIEWED: 2026-04-15 — batch output directory creation is robust.
