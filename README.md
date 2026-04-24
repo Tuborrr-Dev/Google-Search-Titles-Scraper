@@ -36,3 +36,8 @@ python scraper.py "your search query here"
 - 2026-01: Initial scraper_lib refactor
 - 2026-02: Added batch mode and CLI
 - 2026-03: Added comprehensive test suite
+
+
+## License
+
+MIT License — see LICENSE file for details.
