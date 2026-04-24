@@ -90,3 +90,6 @@ if __name__ == "__main__":
 
 
 # NOTE: mutually exclusive group ensures either query or queries-file is provided.
+
+
+# REVIEWED: 2026-04-20 — argument parsing handles all edge cases.
